@@ -1,0 +1,117 @@
+		*
+		{
+			padding: 0;
+			margin: 0;
+		}
+		body
+		{
+			width: 100%;
+			font-family: 'Doppio One', sans-serif;
+
+
+  background-image: url('resources/BG.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+		}
+		.topBar
+		{
+			position: fixed;
+			top: 0px;
+			background: #2b2b2b;
+			width: 100%;
+			min-height: 72px;
+
+			z-index: 9999;
+		}
+		.topBar ul
+		{
+			list-style: none;
+			display: inline-flex;
+			position: absolute;
+			right: 0px;
+		}
+		.topBar ul li
+		{
+			margin-left: 40px;
+			margin-top: 25px;
+
+		}
+		.active{
+			border-top: 3px solid red;
+			position: relative;
+			top: -24px;
+			padding-top: 22px;
+		}
+		.topBar ul li a:hover
+		{
+			border-top: 3px solid red;
+		}
+		.topBar ul li a
+		{
+			text-decoration: none;
+			color: white;
+			padding-top: 22px;
+			padding-bottom: 25px;
+		}
+		.topBar img
+		{
+			 height: 56px;
+			 padding: 8px;
+		}
+		.login
+		{
+			margin-top: -3px;	
+			color: #4dd072;
+			text-decoration:none;
+			font-size: 20px;
+		}
+
+.page
+{
+	position: relative;
+	top: 70px;
+}
+.section
+{
+	position: relative;
+}
+
+.block
+{
+	position: absolute;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 80px;
+}
+.content
+{
+	position: absolute;
+}
+.operator
+{
+	position: absolute;
+	width: 40%;
+	transition: all ease-in-out 250ms;
+	
+}
+.operator:hover
+{
+	width: 50%;
+	margin-top: -9.2%;
+	
+}
+.operatorText
+{
+	position: absolute; 
+	font-family: 'Roboto', sans-serif;
+	font-size: 2vw; 
+	color: white
+}
+
+
+.full
+{
+	width: 100%;
+}
+
